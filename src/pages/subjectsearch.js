@@ -20,7 +20,7 @@ export default function SubjectSearch() {
             </div>
           </div>
         </form>
-      </div>
+      </div> 
       <div className="buttonn-container">
         <button className="buttonn">back</button>
       </div>

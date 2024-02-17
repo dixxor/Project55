@@ -9,6 +9,6 @@ function App() {
       <SubjectSearch/>
     </div>
   );
-}
+} 
 
 export default App;
