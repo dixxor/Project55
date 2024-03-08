@@ -1,0 +1,100 @@
+.head{
+    padding: 20px 0;
+    color: #000000;
+}
+.logo h1{
+    font-size: 25px;
+    font-weight: 900;
+   
+}
+.logo-ED{
+    display: flex;
+    width: 150px;
+    height: 50px;
+}
+.head .icon{
+    margin-left: 10px;
+}
+
+/**------------------header-------------------------*/
+
+header{
+    background-color: rgba(0, 0, 0, 0.15);
+
+    position:absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+header ul{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    margin-right: 40px;
+}
+header ul li a{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.3s;
+}
+header ul li a:hover{
+    color:  #1e88b2;
+}
+
+.start{
+    background-color: #1e88b2;
+    font-size: 20px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.start:hover{
+    color: #ffffff;
+    background-color: #7edf0f;
+}
+.toggle{
+    display: none;
+}
+
+@media screen and(max-width:768px){
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+    }
+    header ul.flexSB{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        background: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+    .mobile-nav{
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+    }
+}
+
+.kasun{
+    padding-left: 0;
+}

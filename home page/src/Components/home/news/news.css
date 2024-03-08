@@ -1,0 +1,127 @@
+.news-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: -60px;
+}
+/*.news-h2{
+    font-size: 50px;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0;
+    text-transform:uppercase;
+    color: #ff0000;
+    text-align: center;
+    letter-spacing: 10px;
+}*/
+.news-button{
+    display: flex;
+    font-size: 25px;
+    margin-left: 94%; /* Adjust margin-right to move the button to the right */
+    text-transform: capitalize;
+    color: #ff0000;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.news-button:hover{
+    color: #002F4A;
+}
+.news-h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 55%;
+    text-transform: capitalize;
+    color: #002F4A;
+    text-align: left;
+    text-transform: uppercase;
+}
+span{
+    color: red;
+}
+.news {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.news:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 6px 10px rgb(23, 143, 180);
+}
+.news img {
+    width: 100%;
+    height: auto;
+}
+
+.news-content {
+    padding: 16px;
+}
+
+.news-content h3 {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 8px;
+    
+}
+.news-content p {
+    color: #666;
+    font-size: 14px; /* Adjust the font size as needed */
+    line-height: 1.3;
+    margin-top: 30px;
+}
+.news .profile-details{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+    margin-top: -10px;
+}
+.news .profile-details img{ 
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.profile-details .name{
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+}
+.profile-details .date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+
+
+
+
+  
+.news-container {
+    display: flex;
+    justify-content: center;
+
+    gap: 90px;
+    margin-top: -60px;
+    /* existing styles */
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ... existing styles ... */
+

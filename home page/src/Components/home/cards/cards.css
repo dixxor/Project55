@@ -1,0 +1,91 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 100px;
+}
+.cards-title{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-transform: capitalize;
+    color: #002F4A;
+    text-align: center;
+}
+.card{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: 0.3s;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.2);
+    background-color: #007ac198;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .card-button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #002F4A;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+.card-content .card-button:hover{
+    background-color: #7edf0f;
+    transform: scale(1.1);
+}
+
+
+.card {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }
+  
+  .card.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+
+.cards-title {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }
+  
+  .card, .cards-title {
+    transition-delay: 0.2s; /* Add a delay to stagger the fade-in effect */
+  }
+  
+  .cards-title.fade-in, .card.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
