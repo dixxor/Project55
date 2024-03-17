@@ -1,14 +1,25 @@
-import React from 'react';
-import SubjectSearch from './pages/subjectsearch';
-import Category from './pages/category';
+import "./App.css";
 
-function App() {
+import Header from "./Components/Commons/Heading/Header.jsx";
+import Home from "./Components/home/Home.jsx";
+import Progress from "./Components/Commons/Progress/Progress.jsx";
+
+
+
+const App = () => {
   return (
-    <div className="App">
+    <>
       
-      <SubjectSearch/>
-    </div>
-  );
-} 
+      <Home />
+      <Progress />
+      {/*<Router>    
+        <Switch>
+          <Route exact path='/' component={Home} />
+        </Switch>
+      </Router>*/}
+      
+    </>
+  )
+}
 
-export default App;
+export default App
