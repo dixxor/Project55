@@ -1,0 +1,133 @@
+.left-part {
+  float: left;
+  width: 45%;
+  background-color: rgb(210, 210, 210);
+  height: 330vh; /* Adjust the height as needed */
+  margin-top: 30px;
+}
+
+/* Apply styles to the right part */
+.right-part {
+  float: right;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  height: 130vh; /* Adjust the height as needed */
+  margin-top: 30px;
+}
+
+/* Clear floats to prevent content from overlapping */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Basic styles for content inside the parts */
+.content {
+  padding: 20px;
+  font-size: 18px;
+  height: 330vh;
+}
+
+.contentt{
+  padding: 20px;
+  font-size: 18px;
+  
+}
+
+.top1 h3{
+  display: flex;
+  text-align: left;
+  font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  
+}
+
+.top1 p{
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+  font-weight: 120;
+  margin-top: 10px;
+}
+
+.p1{
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+  margin-top: 20px; 
+}
+.p2{
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+  margin-top: 10px; 
+}
+
+.par p{
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.par h3{
+  font-size: 17px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.top1 h5{
+  justify-content: center;
+  margin-left: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+
+}
+
+.btn {
+  border: none;
+  width: 15em;
+  height: 5em;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1C1A1C;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+}
+
+.sparkle {
+  fill: #AAAAAA;
+  transition: all 800ms ease;
+}
+
+.text {
+  font-weight: 600;
+  color: #AAAAAA;
+  font-size: medium;
+}
+
+.btn:hover {
+  background: linear-gradient(0deg,#7c9cf3,#3f48ea);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #171bff;
+  transform: translateY(-2px);
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+.btn:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+} 

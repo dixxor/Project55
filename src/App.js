@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Components/Commons/Heading/Header.jsx";
 import Home from "./Components/home/Home.jsx";
 import Progress from "./Components/Commons/Progress/Progress.jsx";
-
+import Join from "./Components/home/join_with_us/Join.jsx"
 
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
       
       <Home />
       <Progress />
+      
       {/*<Router>    
         <Switch>
           <Route exact path='/' component={Home} />

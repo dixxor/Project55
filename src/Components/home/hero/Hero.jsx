@@ -10,7 +10,7 @@ const hero = () => {
         <div className="container">
           <div className="row">
           
-           <Title subtitle='We are looking for you,' title='Joint with us.'/>
+           {/*<Title subtitle='We are looking for you,' title='Joint with us.'/>*/}
             <p></p>
             <div className="button">
               {/*<button className="saja-btn">

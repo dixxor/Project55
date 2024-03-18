@@ -58,14 +58,14 @@ const Comunity = () => {
       <div className="content">
         
 
-        <div className="top-head">
+      <div className="top-head">
 
       <div className='fuck'>    
         <button id="bottone5">
         <i className='fas fa-user'></i>
         <br></br>
           Recomended<br></br>For You</button>
-         
+      
         
         <button id="bottone5">
         <i className='fas fa-laptop'></i>
